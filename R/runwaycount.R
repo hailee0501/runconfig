@@ -1,7 +1,6 @@
 library(dplyr)
-runwaycount<-function(data){
+runwaycount<-function(x,y){
   UseMethod("groups")
   x<-.data$airport
-  y<-.data$RC
   y<-data%>%count(airport)
   }
