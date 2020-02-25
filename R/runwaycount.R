@@ -1,5 +1,6 @@
 runwaycount<-function(data){
+  UseMethod("groups")
   x<-.data$airport
-  .data$RC
-  RC<-data%>%count(airport)
+  y<-.data$RC
+  y<-data%>%count(airport)
   }
