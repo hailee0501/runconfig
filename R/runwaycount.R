@@ -1,6 +1,4 @@
 library(dplyr)
-runwaycount<-function(x,y){
-  UseMethod("groups")
-  x<-.data$airport
-  y<-data%>%count(airport)
-  }
+runwaycount<-function(data,add = FALSE, .drop = group_by_drop_default(.data)){
+  UseMethod("group_by")
+}
